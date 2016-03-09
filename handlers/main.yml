@@ -1,2 +1,7 @@
 ---
-# handlers file for cwlogs
+- name: restart awslogs
+  service:
+    name: "{{ awslogs_agent_daemon_name }}"
+    state: restarted
+    enabled: yes
+  become: true
