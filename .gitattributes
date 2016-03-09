@@ -1,0 +1,8 @@
+* text=auto
+*.html text
+*.css text
+*.yml text
+*.jpg binary
+*.png binary
+*.sh text eol=lf
+*.bat text eol=crlf
